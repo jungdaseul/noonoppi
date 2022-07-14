@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>NOONNOPPI</title>
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/icon">
+    <!-- fullpage.css 연결 -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <!-- swiper css cdn 연결 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <!-- 사용자 정의 css 연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js 연결 -->
+    <script src="js/jquery.fullpage.js"></script>
+    <!-- swiper js cdn 연결 -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- 사용자 정의 js 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="로고">
+            </a>
+        </div>
+        <div class="menu">
+            <div class="ask"><a href="#">상담신청</a></div>
+            <div class="menu_btn">
+                <a href="#">
+                    <div id="nav-icon4">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+            <!-- 내비게이션(GNB-Global Navigation Bar) -->
+            <div class="gnb">
+                <div class="top_menu">
+                    <div class="search">
+                        <div class="search_input">
+                            <input type="text" placeholder="search" name="search" id="search">
+                        </div>
+                        <div class="search_btn">
+                            <a href="#">
+                                <img src="img/search.png" alt="검색버튼">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lang">
+                        <a href="#">KOREAN /</a>
+                        <a href="#">ENGLISH</a>
+                    </div>
+                </div>
+                <nav>
+                   <ul>
+                        <li><a href="#">눈높이소개</a>
+                            <ul class="sub">
+                                <li><a href="#">브랜드스토리</a></li>
+                                <li><a href="#">눈높이학습서비스</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">제품소개</a>
+                            <ul class="sub">
+                                <li><a href="#">제품소개</a></li>
+                                <li><a href="#">제품 한눈에 보기</a></li>
+                                <li><a href="#">제품카달로그</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">커뮤니티</a>
+                            <ul class="sub">
+                                <li><a href="#">눈높이소식</a></li>
+                                <li><a href="#">이벤트</a></li>
+                                <li><a href="#">교육정보</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">회원서비스</a>
+                            <ul class="sub">
+                                <li><a href="#">눈높이365</a></li>
+                                <li><a href="#">눈높이학습관</a></li>
+                                <li><a href="#">눈높이성장판</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">눈높이올림피아드</a>
+                            <ul class="sub">
+                                <li><a href="#">대회소개</a></li>
+                                <li><a href="#">기출문제</a></li>
+                                <li><a href="#">결과조회</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </li>
+                   </ul> 
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section s1">
+            <!-- swiper slide -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide main1">
+                      <div class="line"></div>
+                      <h3>I am the key</h3>
+                      <h2>개개인의 학력 수준에 따라</h2>
+                      <h1>눈높이 교육</h1>
+                      <h4>40년 이상의 내공, 배움 그 이상의 가치를</h4>
+                      <button>브랜드 스토리 확인</button>
+                  </div>
+                  <div class="swiper-slide main2">
+                      <div class="line"></div>
+                      <h2>눈높이,</h2>
+                      <h1>어디에서<br>공부<br>할 수 있나요</h1>
+                      <h4>온라인?<br>집에서?<br>.<br>.<br>.</h4>
+                      <h3>가장 잘 맞는 방법으로 선택하자</h3>
+                  </div>
+                  <div class="swiper-slide main3">
+                      <div class="line"></div>
+                      <h3>다양한 혜택과 서비스</h3>
+                      <h1>마카다미아</h1>
+                      <h2>실시간 커뮤니케이션 어플</h2>
+                      <h4>자녀의 학습 결과와 정보를<br>언제 어디서나 확인 가능합니다.</h4>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </section>
+        <section class="section s2">
+            <button>SINCE 1976</button>
+            <h2>국내/외 19개국 전세계<br>아이들에게 사랑 받는 학습지</h2>
+            <!-- 숫자 올라가는 애니메이션 -->
+            <div class="addNumber">
+                <span></span>
+            </div>
+            <i>눈높이 누적 회원 수</i>
+            <div class="book_logo">
+                <img src="img/book.png" alt="책아이콘">
+            </div>
+
+        </section>
+        <section class="section s3">
+            <h3>눈높이 교육,</h3>
+            <h2>학부모의 선택을 받다.</h2>
+            <button>눈높이 수상이력 보기</button>
+            <i>* 2022년 5월 기준</i>
+            <div class="s3_box">
+                <div class="menu_icon">
+                    <img src="img/brand.png" alt="한국산업의브랜드파워1위">
+                </div>
+                <div class="day">
+                    <p>SINCE 1988</p>
+                </div>
+                <div class="th">
+                    <h6>24<span>th</span></h6>
+                </div>
+            </div>
+        </section>
+        <section class="section s4">
+            <div class="line"></div>
+            <h2>ONLINE SERVICE</h2>
+            <h1><span>눈높이에 관한</span><br>모든 궁금증</h1>
+            <div class="s4_box">
+                <div class="s4_left">
+                    <a href="#">
+                        <div class="s4_left_ani">
+                            <img src="img/call.png" alt="고객센터 연결">
+                        </div>
+                    </a>
+                    <p>고객만족센터 연결</p>
+                </div>
+                <div class="s4_right">
+                    <a href="#">
+                        <div class="s4_right_ani">
+                            <img src="img/maca.png" alt="마카플래너">
+                        </div>
+                    </a>
+                    <p>마카플래너와 함께</p>
+                </div>
+            </div>
+        </section>
+        <section class="section s5">
+            <h2>NOONNOPPI</h2>
+            <h1>눈높이가 만드는 세상</h1>
+            <p>지속적인 관심만이<br>따뜻한 세상을 만듭니다.</p>
+            <div class="line"></div>
+            <div class="donation_icon">
+                <a href="#"><img src="img/heart.png" alt="기부아이콘"></a>
+            </div>
+        </section>
+        <section class="section s6">
+            <h2><span>눈높이</span><br>SNS</h2>
+            <div class="s6_box">
+                <ul>
+                    <li class="sns1">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns2">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/face.png" alt="페이스북">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns3">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/twitt.png" alt="트위터">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns4">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/face.png" alt="페이스북">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns5">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/youtube.png" alt="유튜브">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns6">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns7">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns8">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/face.png" alt="페이스북">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns9">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/twitt.png" alt="트위터">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="#">
+                        <img src="img/insta.png" alt="인스타그램">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/face.png" alt="페이스북">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/youtube.png" alt="유튜브">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/twitt.png" alt="트위터">
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section s7">
+            <div class="news">
+                <button>NEWS</button>
+                <h3>눈높이 학습서비스 가격 인상 안내</h3>
+                <span>2022.04.28</span>
+            </div>
+            <div class="event">
+                <button>EVENT</button>
+                <h3>도서 기부 캠페인<br>참여하고,<br>키즈워터 받자!(~5/31)</h3>
+                <div class="arrow">
+                    <a href="#"><img src="img/arrow.png" alt="화살표"></a>
+                </div>
+            </div>
+            <div class="job">
+                <button>JOB</button>
+                <h3>눈높이 선생님<br>지원하기</h3>
+                <div class="arrow">
+                    <a href="#"><img src="img/arrow.png" alt="화살표"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="section fp-auto-height">
+            <div class="info">
+                <ul>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">고객센터</a></li>
+                    <li><a href="#">지점/센터찾기</a></li>
+                </ul>
+            </div>
+            <address>
+                주소 : 서울시 관악구 보라매로 3길 23 (보라매동 729-21) 대교타워<br>
+                전화번호 : 080-222-0909 | 사업자등록번호 : 112-81-41114
+            </address>
+            <p>Copyright 2020 DAEKYO.,LTD. All Rights Reserved</p>
+        </footer>
+    </div>
+    
+</body>
+</html>
